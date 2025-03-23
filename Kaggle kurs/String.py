@@ -67,7 +67,7 @@ def word_search(doc_list, keyword):
         # O'zgartirilgan ro'yxat tuzing, unda biz moslashishni osonlashtirish uchun har bir so'zni "normallashtiramiz".
         #  Nuqta va vergul har bir soʻz oxiridan olib tashlanadi va u barcha kichik harflarga oʻrnatiladi.
         normalized = [token.rstrip('.,').lower() for token in tokens]
-        # Is there a match? If so, update the list of matching indices.
+        # O'xshashlik bormi? Katta harfda yozilgani bordur? Agar shunday bo'lsa, mos keladigan indekslar ro'yxatini yangilang.
         if keyword.lower() in normalized:
             indices.append(i)
     return indices

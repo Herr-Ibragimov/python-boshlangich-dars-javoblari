@@ -6,7 +6,7 @@ planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', '
 print(planets[0], planets[1], planets[-1], '\n',     planets[0:4], '\n',     planets[3:])
 #     planets[0] - Mercury
 #     planets[1] - Venus
-#     planets[-1] - Neptune
+#     planets[-1] - Neptune     #oxirgi element
 #     planets[0:4] = planets[:4] - 1-elementdan 4-elementgacha (Marsgacha) ['Mercury', 'Venus', 'Earth']
 #     planets[3:0] = planets[3:] - 3-elementdan keyin oxirgi elementgacha (marsdan)
 #     ['Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
@@ -35,6 +35,7 @@ planets.index('Earth')      #earth nechinchi indexda turganini ko'rsatadi
 primes=[2,3,5,7]
 sum(primes)     #elementlari yig'indisi 17
 max(primes)     #elementlar eng kattasi 7
+#primes.mean()  #mean() o'rtacha qiymatini xisoblaydi
 x = 0.125
 x.as_integer_ratio()       #0.125=1/8 shuni 1,8 deb ko'rsatadi
 
